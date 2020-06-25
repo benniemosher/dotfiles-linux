@@ -1,0 +1,17 @@
+Include local.config
+
+Host *
+ AddKeysToAgent yes
+ IdentityFile ~/.ssh/id_rsa
+
+Host github.com
+  HostName github.com
+  User git
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_rsa
+
+Host github.com-oddball
+  HostName github.com
+  User git
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_rsa_oddball

@@ -1,0 +1,29 @@
+[user]
+	name = Bennie Mosher
+	email = benniemosher@gmail.com
+	signingkey = 21B7665760F5CAD38ED3E864AD538735446D633C
+[alias]
+	s = status
+	co = checkout
+	cp = cherry-pick
+[credential]
+	helper = cache --timeout=3600
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore_global
+	ignorecase = false
+[commit]
+	gpgsign = true
+[push]
+	default = current
+[pull]
+	default = current
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[gpg]
+	program = /usr/bin/gpg
+[fetch]
+	prune = true
