@@ -1,5 +1,25 @@
 #  🐧 dotfiles-linux
 
+## System Settings:
+```
+# Auto timezone
+# System Settings > Time and Date > Set time and date automatically
+
+# Breath2Dark Colors
+# System Settings > Colors > Breath2Dark
+# System Settings > Icons > Breath2 Dark
+# System Settings > Startup and Shutdown > Breath2
+
+# Setup Caps Lock map to Ctrl
+# System Settings > Hardware > Input Devices > Keyboard > Advanced > Caps Lock behavior > Caps Lock is also a Ctrl
+
+# Setup Left Alt to Ctrl
+# System Settings > Hardware > Input Devices > Keyboard > Advanced > Ctrl position > Left Alt as Ctrl, Left Ctrl as Win, Left Win as Left Alt
+
+# Drop Yakuake from startup
+# System Settings > Startup and Shutdown > Yakuake
+```
+
 ## To Install:
 ```bash
 # Open Konsole (top left quarter)
@@ -11,12 +31,6 @@ sudo pacman -S base-devel yay
 
 # Perform system update
 # System Settings > Kernel > Install latest and reboot to take affect
-
-# Setup Caps Lock map to Ctrl
-# System Settings > Hardware > Input Devices > Keyboard > Advanced > Caps Lock behavior > Caps Lock is also a Ctrl
-
-# Setup Left Alt to Ctrl
-# System Settings > Hardware > Input Devices > Keyboard > Advanced > Ctrl position > Left Alt as Ctrl, Left Ctrl as Win, Left Win as Left Alt
 
 yay -Syu --devel --timeupdate
 
