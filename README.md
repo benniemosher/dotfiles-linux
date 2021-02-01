@@ -15,7 +15,7 @@ sudo pacman -S base-devel yay
 yay -Syu --devel --timeupdate
 
 # Install needed packages
-yay -S wget git vim github-cli rcm
+yay -S wget git gvim github-cli rcm
 
 # Install oh-my-zsh
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
