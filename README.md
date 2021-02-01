@@ -20,6 +20,15 @@
 # System Settings > Startup and Shutdown > Yakuake
 ```
 
+## Stylize with Nord (optional)
+```
+# System Settings > Global Theme > Get New Global Themes... > Search for "Nordic KDE" > Install > Select and Apply
+# System Settings > Application Style > Configure GNOME/GTK Application Style... > Get New GNOME/GTK Application Styles... > Search for Nordic > Install > Nordic-darker.tar.xz > Close > Set "GTK theme:" to "Nordic-darker" > Apply
+# System Settings > Colors > Nordic-Darker
+# System Settings > Icons > Get New Icons... > Search for Nordic > Install, select, and apply
+# System Settings > Startup and Shutdown > Logni Screen (SDDM) > Nordic
+```
+
 ## To Install:
 ```bash
 # Open Konsole (top left quarter)
