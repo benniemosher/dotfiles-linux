@@ -12,6 +12,12 @@ sudo pacman -S base-devel yay
 # Perform system update
 # System Settings > Kernel > Install latest and reboot to take affect
 
+# Setup Caps Lock map to Ctrl
+# System Settings > Hardware > Input Devices > Keyboard > Advanced > Caps Lock behavior > Caps Lock is also a Ctrl
+
+# Setup Left Alt to Ctrl
+# System Settings > Hardware > Input Devices > Keyboard > Advanced > Ctrl position > Left Alt as Ctrl, Left Ctrl as Win, Left Win as Left Alt
+
 yay -Syu --devel --timeupdate
 
 # Install needed packages
