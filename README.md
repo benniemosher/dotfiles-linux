@@ -27,6 +27,8 @@
 # System Settings > Colors > Nordic-Darker
 # System Settings > Icons > Get New Icons... > Search for Nordic > Install, select, and apply
 # System Settings > Startup and Shutdown > Logni Screen (SDDM) > Nordic
+
+# Konsole > Settings > Manage Profiles... > New > Name BAM > Appearance > Get New... > Search for Nordic > Select, apply > Set as Default
 ```
 
 ## To Install:
