@@ -138,4 +138,14 @@ yay -S brave
 
 # Install Telegram
 yay -S telegram-desktop
+
+# Install RGB Controllers
+yay -S openrgb
+sudo curl -o /etc/udev/rules.d/60-openrgb.rules https://gitlab.com/CalcProgrammer1/OpenRGB/-/raw/master/60-openrgb.rules
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+sudo modprobe i2c-dev
+sudo modprobe i2c-piix4
+yay -S i2c-tools
+sudo i2cdetect -l
 ```
