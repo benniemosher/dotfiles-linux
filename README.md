@@ -148,4 +148,8 @@ sudo modprobe i2c-dev
 sudo modprobe i2c-piix4
 yay -S i2c-tools
 sudo i2cdetect -l
+
+# Install VSCode
+yay -S visual-studio-code-bin
+# Use built-in settings sync with Github
 ```
